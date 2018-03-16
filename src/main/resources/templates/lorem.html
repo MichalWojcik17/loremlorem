@@ -7,31 +7,22 @@
 </head>
 <body>
 <h1>LOREM PSUM by MICHAEL&RAFAEL</h1>
-<textarea style="color: darkred" rows="10" cols="100" >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</textarea><br>
-
-
-    <div><input class="number" type="number" name="number"></div>
-    <br>
-    <div>
-        <select class="number" name="nazwa">
-        <option>Paragraphs</option>
-        <option>Sentences</option>
-        <option>Words</option>
-    </select>
-    </div>
-    <br>
-
 <div>
-        <form action="/result">
-            <a href="http://localhost:8080/result"><input type="submit" value="GENERATE!" class="button"></a>
+    <form action="/result">
+        <div><input class="number" value="1" type="number" name="number"></div>
+        <br>
+        <div>
+            <select class="number" name="type">
+                <option>Paragraphs</option>
+                <option>Sentences</option>
+                <option>Words</option>
+            </select>
+        </div>
+        <br>
+        <input type="submit" value="GENERATE!" class="button">
     </form>
-    </div>
+</div>
+
 
 </body>
 </html>
