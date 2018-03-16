@@ -1,0 +1,26 @@
+body {
+    background-image: url("back.jpg");
+    background-color: lightgray;
+    margin-left: 450px;
+    margin-right: 200px;
+    margin-top: 200px;
+    color: white;
+}
+
+.button{
+    background-color: red;
+    color: white;
+    height: 50px;
+}
+
+h1{
+    margin-left: 0px;
+    color: lightblue;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.number {
+    padding: 5px;
+    margin-top: 10px;
+}

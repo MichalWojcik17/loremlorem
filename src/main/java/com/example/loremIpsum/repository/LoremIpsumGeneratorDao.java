@@ -6,9 +6,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 
+
 public class LoremIpsumGeneratorDao implements loremIpsumGenerator {
    private LoremIpsum loremIpsum = new LoremIpsum();
-
+ private int number;
+ private String type;
     @Override
     public String generateParagraphs(int number) {
 
@@ -24,4 +26,13 @@ public class LoremIpsumGeneratorDao implements loremIpsumGenerator {
     public String generateWords(int number) {
         return loremIpsum.getWords(number);
     }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setName(String type) {
+        this.type = type;
+    }
 }
+
